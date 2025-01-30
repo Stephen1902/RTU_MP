@@ -1,7 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "RTU_MPGameMode.h"
-#include "RTU_MPCharacter.h"
+#include "Player/RTU_MPCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
 ARTU_MPGameMode::ARTU_MPGameMode()

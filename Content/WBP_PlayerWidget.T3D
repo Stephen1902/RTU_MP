@@ -1,0 +1,404 @@
+Begin Object Class=/Script/UMGEditor.WidgetBlueprint Name="WBP_PlayerWidget" ExportPath="/Script/UMGEditor.WidgetBlueprint'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget'"
+   Begin Object Class=/Script/UMG.WidgetTree Name="WidgetTree" Archetype="/Script/UMG.WidgetTree'/Script/UMGEditor.Default__WidgetBlueprint:WidgetTree'" ExportPath="/Script/UMG.WidgetTree'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree'"
+      Begin Object Class=/Script/UMG.CanvasPanel Name="CanvasPanel_26" ExportPath="/Script/UMG.CanvasPanel'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26'"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_2" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_2'"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_3" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_3'"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_0'"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_1'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.CanvasPanel Name="NewItemCanvasPanel" ExportPath="/Script/UMG.CanvasPanel'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel'"
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_0" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_0'"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_1" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_1'"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_2" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_2'"
+         End Object
+         Begin Object Class=/Script/UMG.CanvasPanelSlot Name="CanvasPanelSlot_3" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_3'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Overlay Name="EquippedItemOverlay" ExportPath="/Script/UMG.Overlay'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemOverlay'"
+         Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_1" ExportPath="/Script/UMG.OverlaySlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemOverlay.OverlaySlot_1'"
+         End Object
+         Begin Object Class=/Script/UMG.OverlaySlot Name="OverlaySlot_0" ExportPath="/Script/UMG.OverlaySlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemOverlay.OverlaySlot_0'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="DamageImage" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.DamageImage'"
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="NewItemBackground" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemBackground'"
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="NewItemIcon" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemIcon'"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="NewItemPlusText" ExportPath="/Script/UMG.TextBlock'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemPlusText'"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="NewItemTextBlock" ExportPath="/Script/UMG.TextBlock'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemTextBlock'"
+      End Object
+      Begin Object Class=/Script/UMG.HorizontalBox Name="EquippedItemHorizontalBox" ExportPath="/Script/UMG.HorizontalBox'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox'"
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_0" ExportPath="/Script/UMG.HorizontalBoxSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox.HorizontalBoxSlot_0'"
+         End Object
+         Begin Object Class=/Script/UMG.HorizontalBoxSlot Name="HorizontalBoxSlot_1" ExportPath="/Script/UMG.HorizontalBoxSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox.HorizontalBoxSlot_1'"
+         End Object
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="EquippedItemIcon" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemIcon'"
+      End Object
+      Begin Object Class=/Script/UMG.TextBlock Name="EquippedItemText" ExportPath="/Script/UMG.TextBlock'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemText'"
+      End Object
+      Begin Object Class=/Script/UMG.Image Name="EquippedItemBackgroundImage" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemBackgroundImage'"
+      End Object
+      Begin Object Class=/Game/UI/WBP_StatsWidget.WBP_StatsWidget_C Name="StatsWidget" ExportPath="/Game/UI/WBP_StatsWidget.WBP_StatsWidget_C'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.StatsWidget'"
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetAnimation Name="DamageAnimation" ExportPath="/Script/UMG.WidgetAnimation'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation'"
+      Begin Object Class=/Script/MovieScene.MovieScene Name="DamageAnimation" ExportPath="/Script/MovieScene.MovieScene'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation'"
+         Begin Object Class=/Script/MovieScene.MovieSceneNodeGroupCollection Name="NodeGroupCollection" Archetype="/Script/MovieScene.MovieSceneNodeGroupCollection'/Script/MovieScene.Default__MovieScene:NodeGroupCollection'" ExportPath="/Script/MovieScene.MovieSceneNodeGroupCollection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.NodeGroupCollection'"
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorTrack Name="MovieSceneColorTrack_0" ExportPath="/Script/MovieSceneTracks.MovieSceneColorTrack'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0'"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneColorSection Name="MovieSceneColorSection_0" ExportPath="/Script/MovieSceneTracks.MovieSceneColorSection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0.MovieSceneColorSection_0'"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseInFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction'"
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneColorSection:EaseOutFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction'"
+               End Object
+            End Object
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/UMG.WidgetAnimation Name="NewItemAnimation" ExportPath="/Script/UMG.WidgetAnimation'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation'"
+      Begin Object Class=/Script/MovieScene.MovieScene Name="NewItemAnimation" ExportPath="/Script/MovieScene.MovieScene'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation'"
+         Begin Object Class=/Script/MovieScene.MovieSceneNodeGroupCollection Name="NodeGroupCollection" Archetype="/Script/MovieScene.MovieSceneNodeGroupCollection'/Script/MovieScene.Default__MovieScene:NodeGroupCollection'" ExportPath="/Script/MovieScene.MovieSceneNodeGroupCollection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.NodeGroupCollection'"
+         End Object
+         Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatTrack Name="MovieSceneFloatTrack_0" ExportPath="/Script/MovieSceneTracks.MovieSceneFloatTrack'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0'"
+            Begin Object Class=/Script/MovieSceneTracks.MovieSceneFloatSection Name="MovieSceneFloatSection_0" ExportPath="/Script/MovieSceneTracks.MovieSceneFloatSection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseInFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'"
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/MovieSceneTracks.Default__MovieSceneFloatSection:EaseOutFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'"
+               End Object
+            End Object
+         End Object
+         Begin Object Class=/Script/UMG.MovieSceneMarginTrack Name="MovieSceneMarginTrack_1" ExportPath="/Script/UMG.MovieSceneMarginTrack'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1'"
+            Begin Object Class=/Script/UMG.MovieSceneMarginSection Name="MovieSceneMarginSection_0" ExportPath="/Script/UMG.MovieSceneMarginSection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'"
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseInFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieSceneMarginSection:EaseInFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseInFunction'"
+               End Object
+               Begin Object Class=/Script/MovieScene.MovieSceneBuiltInEasingFunction Name="EaseOutFunction" Archetype="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Script/UMG.Default__MovieSceneMarginSection:EaseOutFunction'" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseOutFunction'"
+               End Object
+            End Object
+         End Object
+      End Object
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph'"
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph.K2Node_Event_0'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph.K2Node_Event_1'"
+      End Object
+      Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_2" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph.K2Node_Event_2'"
+      End Object
+   End Object
+   Begin Object Name="WidgetTree" ExportPath="/Script/UMG.WidgetTree'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree'"
+      Begin Object Name="CanvasPanel_26" ExportPath="/Script/UMG.CanvasPanel'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26'"
+         Begin Object Name="CanvasPanelSlot_2" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_2'"
+            LayoutData=(Offsets=(Left=100.000000,Top=-200.000000,Right=384.000000,Bottom=180.000000),Anchors=(Minimum=(X=0.000000,Y=1.000000),Maximum=(X=0.000000,Y=1.000000)))
+            Parent="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.CanvasPanel_26'"
+            Content="/Game/UI/WBP_StatsWidget.WBP_StatsWidget_C'WBP_PlayerWidget:WidgetTree.StatsWidget'"
+         End Object
+         Begin Object Name="CanvasPanelSlot_3" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_3'"
+            LayoutData=(Offsets=(Right=0.000000,Bottom=0.000000),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.CanvasPanel_26'"
+            Content="/Script/UMG.Image'WBP_PlayerWidget:WidgetTree.DamageImage'"
+         End Object
+         Begin Object Name="CanvasPanelSlot_0" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_0'"
+            LayoutData=(Offsets=(Left=-224.000000,Top=-90.000000,Right=200.000000,Bottom=40.000000),Anchors=(Minimum=(X=1.000000,Y=1.000000),Maximum=(X=1.000000,Y=1.000000)))
+            Parent="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.CanvasPanel_26'"
+            Content="/Script/UMG.Overlay'WBP_PlayerWidget:WidgetTree.EquippedItemOverlay'"
+         End Object
+         Begin Object Name="CanvasPanelSlot_1" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_1'"
+            LayoutData=(Offsets=(Left=105.000000,Top=-300.000000,Right=315.000000,Bottom=60.000000),Anchors=(Minimum=(X=0.000000,Y=1.000000),Maximum=(X=0.000000,Y=1.000000)))
+            Parent="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.CanvasPanel_26'"
+            Content="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel'"
+         End Object
+         Slots(0)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_2'"
+         Slots(1)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_3'"
+         Slots(2)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_0'"
+         Slots(3)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_1'"
+         bExpandedInDesigner=True
+      End Object
+      Begin Object Name="NewItemCanvasPanel" ExportPath="/Script/UMG.CanvasPanel'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel'"
+         Begin Object Name="CanvasPanelSlot_0" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_0'"
+            LayoutData=(Offsets=(Right=0.000000,Bottom=0.000000),Anchors=(Maximum=(X=1.000000,Y=1.000000)))
+            Parent="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel'"
+            Content="/Script/UMG.Image'WBP_PlayerWidget:WidgetTree.NewItemBackground'"
+         End Object
+         Begin Object Name="CanvasPanelSlot_1" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_1'"
+            LayoutData=(Offsets=(Left=44.000000,Top=32.000000,Right=32.000000,Bottom=32.000000),Alignment=(X=0.500000,Y=0.500000))
+            Parent="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel'"
+            Content="/Script/UMG.Image'WBP_PlayerWidget:WidgetTree.NewItemIcon'"
+         End Object
+         Begin Object Name="CanvasPanelSlot_2" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_2'"
+            LayoutData=(Offsets=(Left=4.000000,Top=-18.000000,Right=21.921928,Bottom=34.504505),Anchors=(Minimum=(X=0.000000,Y=0.500000),Maximum=(X=0.000000,Y=0.500000)))
+            Parent="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel'"
+            Content="/Script/UMG.TextBlock'WBP_PlayerWidget:WidgetTree.NewItemPlusText'"
+         End Object
+         Begin Object Name="CanvasPanelSlot_3" ExportPath="/Script/UMG.CanvasPanelSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_3'"
+            LayoutData=(Offsets=(Left=90.534531,Top=12.000000,Right=217.117111))
+            Parent="/Script/UMG.CanvasPanel'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel'"
+            Content="/Script/UMG.TextBlock'WBP_PlayerWidget:WidgetTree.NewItemTextBlock'"
+         End Object
+         Slots(0)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_0'"
+         Slots(1)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_1'"
+         Slots(2)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_2'"
+         Slots(3)="/Script/UMG.CanvasPanelSlot'CanvasPanelSlot_3'"
+         Slot="/Script/UMG.CanvasPanelSlot'WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_1'"
+         bExpandedInDesigner=True
+         DisplayLabel="NewItemCanvasPanel"
+      End Object
+      Begin Object Name="EquippedItemOverlay" ExportPath="/Script/UMG.Overlay'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemOverlay'"
+         Begin Object Name="OverlaySlot_1" ExportPath="/Script/UMG.OverlaySlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemOverlay.OverlaySlot_1'"
+            HorizontalAlignment=HAlign_Fill
+            VerticalAlignment=VAlign_Fill
+            Parent="/Script/UMG.Overlay'WBP_PlayerWidget:WidgetTree.EquippedItemOverlay'"
+            Content="/Script/UMG.HorizontalBox'WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox'"
+         End Object
+         Begin Object Name="OverlaySlot_0" ExportPath="/Script/UMG.OverlaySlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemOverlay.OverlaySlot_0'"
+            HorizontalAlignment=HAlign_Fill
+            VerticalAlignment=VAlign_Fill
+            Parent="/Script/UMG.Overlay'WBP_PlayerWidget:WidgetTree.EquippedItemOverlay'"
+            Content="/Script/UMG.Image'WBP_PlayerWidget:WidgetTree.EquippedItemBackgroundImage'"
+         End Object
+         Slots(0)="/Script/UMG.OverlaySlot'OverlaySlot_0'"
+         Slots(1)="/Script/UMG.OverlaySlot'OverlaySlot_1'"
+         Slot="/Script/UMG.CanvasPanelSlot'WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_0'"
+         bExpandedInDesigner=True
+         DisplayLabel="EquippedItemOverlay"
+      End Object
+      Begin Object Name="DamageImage" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.DamageImage'"
+         ColorAndOpacity=(R=1.000000,G=0.000000,B=0.000000,A=0.000000)
+         Slot="/Script/UMG.CanvasPanelSlot'WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_3'"
+         Visibility=SelfHitTestInvisible
+         DisplayLabel="DamageImage"
+      End Object
+      Begin Object Name="NewItemBackground" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemBackground'"
+         Brush=(TintColor=(SpecifiedColor=(R=0.000000,G=0.000000,B=0.000000,A=1.000000)))
+         ColorAndOpacity=(R=1.000000,G=1.000000,B=1.000000,A=0.600000)
+         Slot="/Script/UMG.CanvasPanelSlot'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_0'"
+         DisplayLabel="NewItemBackground"
+      End Object
+      Begin Object Name="NewItemIcon" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemIcon'"
+         Slot="/Script/UMG.CanvasPanelSlot'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_1'"
+         DisplayLabel="NewItemIcon"
+      End Object
+      Begin Object Name="NewItemPlusText" ExportPath="/Script/UMG.TextBlock'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemPlusText'"
+         Text=NSLOCTEXT("[5E1AF5B075660455AFB2C228AA7A564B]", "6C791996436E9E6915B64BBF2CE45AEC", "+")
+         Slot="/Script/UMG.CanvasPanelSlot'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_2'"
+         DisplayLabel="NewItemPlusText"
+      End Object
+      Begin Object Name="NewItemTextBlock" ExportPath="/Script/UMG.TextBlock'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.NewItemTextBlock'"
+         Text=NSLOCTEXT("[5E1AF5B075660455AFB2C228AA7A564B]", "E0B96AC54815C7978E13108C91EF217D", "Wood Axe")
+         Justification=Right
+         Slot="/Script/UMG.CanvasPanelSlot'WBP_PlayerWidget:WidgetTree.NewItemCanvasPanel.CanvasPanelSlot_3'"
+         DisplayLabel="NewItemTextBlock"
+      End Object
+      Begin Object Name="EquippedItemHorizontalBox" ExportPath="/Script/UMG.HorizontalBox'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox'"
+         Begin Object Name="HorizontalBoxSlot_0" ExportPath="/Script/UMG.HorizontalBoxSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox.HorizontalBoxSlot_0'"
+            HorizontalAlignment=HAlign_Left
+            Parent="/Script/UMG.HorizontalBox'WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox'"
+            Content="/Script/UMG.Image'WBP_PlayerWidget:WidgetTree.EquippedItemIcon'"
+         End Object
+         Begin Object Name="HorizontalBoxSlot_1" ExportPath="/Script/UMG.HorizontalBoxSlot'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox.HorizontalBoxSlot_1'"
+            Size=(SizeRule=Fill)
+            HorizontalAlignment=HAlign_Right
+            Parent="/Script/UMG.HorizontalBox'WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox'"
+            Content="/Script/UMG.TextBlock'WBP_PlayerWidget:WidgetTree.EquippedItemText'"
+         End Object
+         Slots(0)="/Script/UMG.HorizontalBoxSlot'HorizontalBoxSlot_0'"
+         Slots(1)="/Script/UMG.HorizontalBoxSlot'HorizontalBoxSlot_1'"
+         Slot="/Script/UMG.OverlaySlot'WBP_PlayerWidget:WidgetTree.EquippedItemOverlay.OverlaySlot_1'"
+         bExpandedInDesigner=True
+         DisplayLabel="EquippedItemHorizontalBox"
+      End Object
+      Begin Object Name="EquippedItemIcon" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemIcon'"
+         Brush=(ImageType=FullColor,ResourceObject="/Script/Engine.Texture2D'/Game/UI/Icons/health-normal.health-normal'")
+         Slot="/Script/UMG.HorizontalBoxSlot'WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox.HorizontalBoxSlot_0'"
+         DisplayLabel="EquippedItemIcon"
+      End Object
+      Begin Object Name="EquippedItemText" ExportPath="/Script/UMG.TextBlock'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemText'"
+         Text=NSLOCTEXT("[5E1AF5B075660455AFB2C228AA7A564B]", "04F8A43B4B521243E61717ACF0E591AD", "Pickaxe")
+         Slot="/Script/UMG.HorizontalBoxSlot'WBP_PlayerWidget:WidgetTree.EquippedItemHorizontalBox.HorizontalBoxSlot_1'"
+         DisplayLabel="EquippedItemText"
+      End Object
+      Begin Object Name="EquippedItemBackgroundImage" ExportPath="/Script/UMG.Image'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.EquippedItemBackgroundImage'"
+         ColorAndOpacity=(R=0.000000,G=0.000000,B=0.000000,A=0.400000)
+         Slot="/Script/UMG.OverlaySlot'WBP_PlayerWidget:WidgetTree.EquippedItemOverlay.OverlaySlot_0'"
+         DisplayLabel="EquippedItemBackgroundImage"
+      End Object
+      Begin Object Name="StatsWidget" ExportPath="/Game/UI/WBP_StatsWidget.WBP_StatsWidget_C'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:WidgetTree.StatsWidget'"
+         Slot="/Script/UMG.CanvasPanelSlot'WBP_PlayerWidget:WidgetTree.CanvasPanel_26.CanvasPanelSlot_2'"
+         DisplayLabel="StatsWidget"
+      End Object
+      RootWidget="/Script/UMG.CanvasPanel'CanvasPanel_26'"
+   End Object
+   Begin Object Name="DamageAnimation" ExportPath="/Script/UMG.WidgetAnimation'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation'"
+      Begin Object Name="DamageAnimation" ExportPath="/Script/MovieScene.MovieScene'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation'"
+         Begin Object Name="NodeGroupCollection" ExportPath="/Script/MovieScene.MovieSceneNodeGroupCollection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.NodeGroupCollection'"
+         End Object
+         Begin Object Name="MovieSceneColorTrack_0" ExportPath="/Script/MovieSceneTracks.MovieSceneColorTrack'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0'"
+            Begin Object Name="MovieSceneColorSection_0" ExportPath="/Script/MovieSceneTracks.MovieSceneColorSection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0.MovieSceneColorSection_0'"
+               Begin Object Name="EaseInFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction'"
+               End Object
+               Begin Object Name="EaseOutFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction'"
+               End Object
+               AlphaCurve=(Times=((),(Value=6000),(Value=30000),(Value=60000)),Values=((),(Value=0.300000),(),()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'WBP_PlayerWidget:DamageAnimation.DamageAnimation.MovieSceneColorTrack_0.MovieSceneColorSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:60000
+               Signature=681F4FDD48B5ABAFF07EB2AC3775929C
+            End Object
+            UniqueTrackName="ColorAndOpacity"
+            PropertyBinding=(PropertyName="ColorAndOpacity",PropertyPath="ColorAndOpacity",bCanUseClassLookup=True)
+            Sections(0)="/Script/MovieSceneTracks.MovieSceneColorSection'MovieSceneColorSection_0'"
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Image:ColorAndOpacity", "Color and Opacity")
+            EvaluationFieldGuid=94B3A89D46C4F8751AF11B98BEF658DC
+            EvaluationField=(Entries=((Section="/Script/MovieSceneTracks.MovieSceneColorSection'MovieSceneColorSection_0'",Range=(LowerBound=(Type=Inclusive),UpperBound=(Type=Inclusive,Value=(Value=60000))),ForcedTime=(Value=-2147483648))))
+            Signature=94B3A89D46C4F8751AF11B98BEF658DC
+         End Object
+         Possessables(0)=(Guid=060D9CFF4BC03A1E8ADC77B966BD1F58,Name="DamageImage",PossessedObjectClass="/Script/UMG.Image")
+         ObjectBindings(0)=(ObjectGuid=060D9CFF4BC03A1E8ADC77B966BD1F58,BindingName="DamageImage",Tracks=("/Script/MovieSceneTracks.MovieSceneColorTrack'MovieSceneColorTrack_0'"))
+         PlaybackRange=Inclusive:0:Exclusive:60001
+         DisplayRate=(Numerator=20)
+         EditorData=(ExpansionStates=(("060D9CFF4BC03A1E8ADC77B966BD1F58.MovieSceneColorTrack_0", (bExpanded=False))),ViewStart=-0.500002,ViewEnd=5.500018,WorkStart=-0.500002,WorkEnd=5.500018)
+         Signature=A988938A42F346AB43B6E2A83F80512F
+      End Object
+      MovieScene="/Script/MovieScene.MovieScene'DamageAnimation'"
+      AnimationBindings(0)=(WidgetName="DamageImage",AnimationGuid=060D9CFF4BC03A1E8ADC77B966BD1F58)
+      DisplayLabel="DamageAnimation"
+      Signature=3EF42A9C46E8A7FEAB7D57BEF5086B22
+   End Object
+   Begin Object Name="NewItemAnimation" ExportPath="/Script/UMG.WidgetAnimation'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation'"
+      Begin Object Name="NewItemAnimation" ExportPath="/Script/MovieScene.MovieScene'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation'"
+         Begin Object Name="NodeGroupCollection" ExportPath="/Script/MovieScene.MovieSceneNodeGroupCollection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.NodeGroupCollection'"
+         End Object
+         Begin Object Name="MovieSceneFloatTrack_0" ExportPath="/Script/MovieSceneTracks.MovieSceneFloatTrack'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0'"
+            Begin Object Name="MovieSceneFloatSection_0" ExportPath="/Script/MovieSceneTracks.MovieSceneFloatSection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0.MovieSceneFloatSection_0'"
+               Begin Object Name="EaseInFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction'"
+               End Object
+               Begin Object Name="EaseOutFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction'"
+               End Object
+               FloatCurve=(Times=((),(Value=15000),(Value=30000),(Value=60000),(Value=90000)),Values=((),(Value=0.500000,Tangent=(ArriveTangent=0.000033,LeaveTangent=0.000033)),(Value=1.000000),(Value=1.000000),()))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneFloatTrack_0.MovieSceneFloatSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:90000
+               Signature=91D5C3384F97A2981D632EA408DFE40F
+            End Object
+            UniqueTrackName="RenderOpacity"
+            PropertyBinding=(PropertyName="RenderOpacity",PropertyPath="RenderOpacity",bCanUseClassLookup=True)
+            Sections(0)="/Script/MovieSceneTracks.MovieSceneFloatSection'MovieSceneFloatSection_0'"
+            DisplayName=NSLOCTEXT("UObjectDisplayNames", "Widget:RenderOpacity", "Render Opacity")
+            EvaluationFieldGuid=C636B780447D0B54303043A059902E2A
+            EvaluationField=(Entries=((Section="/Script/MovieSceneTracks.MovieSceneFloatSection'MovieSceneFloatSection_0'",Range=(LowerBound=(Type=Inclusive),UpperBound=(Type=Inclusive,Value=(Value=90000))),ForcedTime=(Value=-2147483648))))
+            Signature=C636B780447D0B54303043A059902E2A
+         End Object
+         Begin Object Name="MovieSceneMarginTrack_1" ExportPath="/Script/UMG.MovieSceneMarginTrack'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1'"
+            Begin Object Name="MovieSceneMarginSection_0" ExportPath="/Script/UMG.MovieSceneMarginSection'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1.MovieSceneMarginSection_0'"
+               Begin Object Name="EaseInFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseInFunction'"
+               End Object
+               Begin Object Name="EaseOutFunction" ExportPath="/Script/MovieScene.MovieSceneBuiltInEasingFunction'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseOutFunction'"
+               End Object
+               LeftCurve=(Times=((),(Value=15000),(Value=30000),(Value=90000),(Value=120000)),Values=((Value=-336.000000),(Tangent=(ArriveTangent=0.010500,LeaveTangent=0.010500)),(Value=105.000000),(Value=105.000000),(Value=-330.000000)))
+               Easing=(EaseIn=MovieSceneBuiltInEasingFunction'WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseInFunction',EaseOut=MovieSceneBuiltInEasingFunction'WBP_PlayerWidget:NewItemAnimation.NewItemAnimation.MovieSceneMarginTrack_1.MovieSceneMarginSection_0.EaseOutFunction')
+               SectionRange=Inclusive:0:Inclusive:120000
+               Signature=57B074C840BB6B96CA3A3FA71E587ED1
+            End Object
+            UniqueTrackName="LayoutData.Offsets"
+            PropertyBinding=(PropertyName="Offsets",PropertyPath="LayoutData.Offsets",bCanUseClassLookup=True)
+            Sections(0)="/Script/UMG.MovieSceneMarginSection'MovieSceneMarginSection_0'"
+            DisplayName=LOCGEN_FORMAT_ORDERED(NSLOCTEXT("PropertyTrackEditor", "DisplayTextStructFormat", "{0} ({1})"), NSLOCTEXT("UObjectDisplayNames", "AnchorData:Offsets", "Offsets"), NSLOCTEXT("UObjectDisplayNames", "CanvasPanelSlot:LayoutData", "Layout Data"))
+            EvaluationFieldGuid=DEB4911D4C468B3B16D485B4E87CF838
+            EvaluationField=(Entries=((Section="/Script/UMG.MovieSceneMarginSection'MovieSceneMarginSection_0'",Range=(LowerBound=(Type=Inclusive),UpperBound=(Type=Inclusive,Value=(Value=120000))),ForcedTime=(Value=-2147483648))))
+            Signature=DEB4911D4C468B3B16D485B4E87CF838
+         End Object
+         Possessables(0)=(Guid=216617854198B3D7579CFA996594BF98,Name="NewItemCanvasPanel",PossessedObjectClass="/Script/UMG.CanvasPanel")
+         Possessables(1)=(Guid=91D01D2146240343E6A7FAA8F64EBF54,Name="CanvasPanelSlot_1",PossessedObjectClass="/Script/UMG.CanvasPanelSlot",ParentGuid=216617854198B3D7579CFA996594BF98)
+         ObjectBindings(0)=(ObjectGuid=216617854198B3D7579CFA996594BF98,BindingName="NewItemCanvasPanel",Tracks=("/Script/MovieSceneTracks.MovieSceneFloatTrack'MovieSceneFloatTrack_0'"))
+         ObjectBindings(1)=(ObjectGuid=91D01D2146240343E6A7FAA8F64EBF54,BindingName="CanvasPanelSlot_1",Tracks=("/Script/UMG.MovieSceneMarginTrack'MovieSceneMarginTrack_1'"))
+         SelectionRange=Inclusive:0:Inclusive:120000
+         PlaybackRange=Inclusive:0:Exclusive:120001
+         DisplayRate=(Numerator=20)
+         EditorData=(ExpansionStates=(("216617854198B3D7579CFA996594BF98.MovieScene2DTransformTrack_0", ()),("216617854198B3D7579CFA996594BF98.MovieScene2DTransformTrack_0.Translation", ()),("216617854198B3D7579CFA996594BF98.91D01D2146240343E6A7FAA8F64EBF54.MovieSceneMarginTrack_1", (bExpanded=False)),("216617854198B3D7579CFA996594BF98.MovieSceneFloatTrack_0", (bExpanded=False))),ViewStart=-0.500002,ViewEnd=5.500018,WorkStart=-0.500002,WorkEnd=5.500018)
+         Signature=4BEFFD5B48B569E94377229747EB64AD
+      End Object
+      MovieScene="/Script/MovieScene.MovieScene'NewItemAnimation'"
+      AnimationBindings(0)=(WidgetName="NewItemCanvasPanel",AnimationGuid=216617854198B3D7579CFA996594BF98)
+      AnimationBindings(1)=(WidgetName="NewItemCanvasPanel",SlotWidgetName="CanvasPanelSlot_1",AnimationGuid=91D01D2146240343E6A7FAA8F64EBF54)
+      DisplayLabel="NewItemAnimation"
+      Signature=4E98898347678FB3BD87719B906EA9CD
+   End Object
+   Begin Object Name="EventGraph" ExportPath="/Script/Engine.EdGraph'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph'"
+      Begin Object Name="K2Node_Event_0" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph.K2Node_Event_0'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="PreConstruct")
+         bOverrideFunction=True
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=3BE8C9AC4849DED3433F1B819FF2676E
+         CustomProperties Pin (PinId=06D0E34D493489B4B0191C8FDA7392A4,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="PreConstruct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=6773830948FF1CEE7C9DEBB7991BE154,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=F8AE1B08436223704D734CAD399BB243,PinName="IsDesignTime",PinToolTip="Is Design Time\nBoolean",Direction="EGPD_Output",PinType.PinCategory="bool",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="false",AutogeneratedDefaultValue="false",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_1" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph.K2Node_Event_1'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Construct")
+         bOverrideFunction=True
+         NodePosY=208
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=54D8758D45AA85865CB31FBA8B55D8AA
+         CustomProperties Pin (PinId=CC25CE6A4B47428E7C9185824838C4D7,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Construct"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=FC577ABB4C4150197293ACB54321DBF6,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Begin Object Name="K2Node_Event_2" ExportPath="/Script/BlueprintGraph.K2Node_Event'/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph.K2Node_Event_2'"
+         EventReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Tick")
+         bOverrideFunction=True
+         NodePosY=416
+         EnabledState=Disabled
+         bCommentBubblePinned=True
+         bCommentBubbleVisible=True
+         NodeComment="This node is disabled and will not be called.\nDrag off pins to build functionality."
+         NodeGuid=E3E56BA94A0C9D8059E379BBF4685D8B
+         CustomProperties Pin (PinId=9CEF6D1C43EF2FC0F4EDB7A7017C145C,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(MemberParent="/Script/CoreUObject.Class'/Script/UMG.UserWidget'",MemberName="Tick"),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=2C5AFECE44A593711AC9F398CEF5912A,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PinType.PinSubCategory="",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=B2BF14D64ECE7374CD762880C68D37D5,PinName="MyGeometry",PinToolTip="My Geometry\nGeometry Structure\n\nThe space allotted for this widget",Direction="EGPD_Output",PinType.PinCategory="struct",PinType.PinSubCategory="",PinType.PinSubCategoryObject="/Script/CoreUObject.ScriptStruct'/Script/SlateCore.Geometry'",PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+         CustomProperties Pin (PinId=39076FD44B5D4A1CF8521CA1718346FC,PinName="InDeltaTime",PinToolTip="In Delta Time\nFloat (single-precision)\n\nReal time passed since last tick",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PinType.PinSubCategoryObject=None,PinType.PinSubCategoryMemberReference=(),PinType.PinValueType=(),PinType.ContainerType=None,PinType.bIsReference=False,PinType.bIsConst=False,PinType.bIsWeakPointer=False,PinType.bIsUObjectWrapper=False,PinType.bSerializeAsSinglePrecisionFloat=False,DefaultValue="0.0",AutogeneratedDefaultValue="0.0",PersistentGuid=00000000000000000000000000000000,bHidden=False,bNotConnectable=False,bDefaultValueIsReadOnly=False,bDefaultValueIsIgnored=False,bAdvancedView=False,bOrphanedPin=False,)
+      End Object
+      Schema="/Script/CoreUObject.Class'/Script/BlueprintGraph.EdGraphSchema_K2'"
+      Nodes(0)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_0'"
+      Nodes(1)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_1'"
+      Nodes(2)="/Script/BlueprintGraph.K2Node_Event'K2Node_Event_2'"
+      bAllowDeletion=False
+      GraphGuid=A7E48A604C1782F09C55318053231976
+   End Object
+   Animations(0)="/Script/UMG.WidgetAnimation'DamageAnimation'"
+   Animations(1)="/Script/UMG.WidgetAnimation'NewItemAnimation'"
+   TickPrediction=WillTick
+   TickPredictionReason="Native|Anim"
+   WidgetTree="WidgetTree"
+   ParentClass="/Script/CoreUObject.Class'/Script/SurvivalGame.PlayerWidget'"
+   BlueprintSystemVersion=2
+   UbergraphPages(0)="/Script/Engine.EdGraph'EventGraph'"
+   CategorySorting(0)="Event Graph"
+   CategorySorting(1)="Stats"
+   CategorySorting(2)="Appearance"
+   CategorySorting(3)="Input"
+   CategorySorting(4)="Interaction"
+   CategorySorting(5)="Performance"
+   CategorySorting(6)="Layout"
+   CategorySorting(7)="Behavior"
+   CategorySorting(8)="Render Transform"
+   CategorySorting(9)="Localization"
+   CategorySorting(10)="Rendering"
+   CategorySorting(11)="Navigation"
+   CategorySorting(12)="WBP Player Widget"
+   LastEditedDocuments(0)=(EditedObjectPath="/Game/UI/WBP_PlayerWidget.WBP_PlayerWidget:EventGraph",SavedViewOffset=(X=-802.166626,Y=-348.125000),SavedZoomAmount=1.000000)
+   GeneratedClass="/Script/UMG.WidgetBlueprintGeneratedClass'WBP_PlayerWidget_C'"
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=BA9678614EB358E2C59AE0A438318F36
+End Object

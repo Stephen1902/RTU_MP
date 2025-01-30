@@ -10,6 +10,8 @@
 #include "EnhancedInputComponent.h"
 #include "EnhancedInputSubsystems.h"
 #include "InputActionValue.h"
+#include "PlayerStatsComp.h"
+#include "PlayerWidget.h"
 
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
@@ -51,16 +53,35 @@ ARTU_MPCharacter::ARTU_MPCharacter()
 	FollowCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("FollowCamera"));
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
-
 	
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
+
+	/* Components */
+	StatComponent = CreateDefaultSubobject<UPlayerStatsComp>(TEXT("Stat Component"));
 }
 
 void ARTU_MPCharacter::BeginPlay()
 {
 	// Call the base class  
 	Super::BeginPlay();
+
+	if (WidgetToDisplay)
+	{
+		PlayerController = Cast<APlayerController>(GetController());
+		if (PlayerController)
+		{
+			PlayerWidgetRef = CreateWidget<UPlayerWidget>(PlayerController, WidgetToDisplay);
+			if (PlayerWidgetRef)
+			{
+				PlayerWidgetRef->AddToViewport();
+				/*if (StatComponent)
+				{
+					//StatComponent->SetPlayerWidgetRef(PlayerWidgetRef);
+				}*/
+			}
+		}
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -69,9 +90,9 @@ void ARTU_MPCharacter::BeginPlay()
 void ARTU_MPCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	// Add Input Mapping Context
-	if (APlayerController* PlayerController = Cast<APlayerController>(GetController()))
+	if (APlayerController* InputPlayerController = Cast<APlayerController>(GetController()))
 	{
-		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(PlayerController->GetLocalPlayer()))
+		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = ULocalPlayer::GetSubsystem<UEnhancedInputLocalPlayerSubsystem>(InputPlayerController->GetLocalPlayer()))
 		{
 			Subsystem->AddMappingContext(DefaultMappingContext, 0);
 		}

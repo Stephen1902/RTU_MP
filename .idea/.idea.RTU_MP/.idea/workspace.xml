@@ -12,10 +12,11 @@
   <component name="ChangeListManager">
     <list default="true" id="83bac870-0ef0-48be-baf3-0ee96acfd503" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RTU_MP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RTU_MP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RTU_MP.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/RTU_MP.uproject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/RTU_MP/RTU_MPCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RTU_MP/RTU_MPCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RTU_MP/RTU_MP.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RTU_MP/RTU_MP.Build.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RTU_MP/RTU_MPCharacter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RTU_MP/RTU_MPCharacter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/RTU_MP/RTU_MPGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/RTU_MP/RTU_MPGameMode.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,14 @@
     &quot;accountId&quot;: &quot;3dea0555-4e4e-442c-b2e2-9d524e15ee18&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Source/RTU_MP/Player/PlayerStatsComp.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/RTU_MP/Player/PlayerStatsComp.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/RTU_MP/Player/PlayerWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/RTU_MP/Player/PlayerWidget.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/RTU_MP/Player/StatsWidget.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/RTU_MP/Player/StatsWidget.h" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -490,7 +499,10 @@
       <option name="presentableId" value="Default" />
       <updated>1737822339402</updated>
       <workItem from="1737822340431" duration="2600000" />
-      <workItem from="1737885403360" duration="884000" />
+      <workItem from="1737885403360" duration="3217000" />
+      <workItem from="1737895440413" duration="5697000" />
+      <workItem from="1738164339859" duration="3200000" />
+      <workItem from="1738264029207" duration="4890000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit after project creation">
       <option name="closed" value="true" />
@@ -500,7 +512,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737822730530</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated RTU_MPCharacter.cpp and BP so that camera is now in &quot;true&quot; first person, not third person.">
+      <option name="closed" value="true" />
+      <created>1737886361699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737886361700</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,6 +531,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit after project creation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit after project creation" />
+    <MESSAGE value="Updated RTU_MPCharacter.cpp and BP so that camera is now in &quot;true&quot; first person, not third person." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated RTU_MPCharacter.cpp and BP so that camera is now in &quot;true&quot; first person, not third person." />
   </component>
 </project>
