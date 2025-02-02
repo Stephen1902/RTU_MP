@@ -75,10 +75,10 @@ void ARTU_MPCharacter::BeginPlay()
 			if (PlayerWidgetRef)
 			{
 				PlayerWidgetRef->AddToViewport();
-				/*if (StatComponent)
+				if (StatComponent)
 				{
-					//StatComponent->SetPlayerWidgetRef(PlayerWidgetRef);
-				}*/
+					StatComponent->SetPlayerWidgetRef(PlayerWidgetRef);
+				}
 			}
 		}
 	}
